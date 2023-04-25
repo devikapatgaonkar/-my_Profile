@@ -6,45 +6,76 @@
         </title>
     </head>
     <style>
-        table, th,tr,tr,td{ 
+        table, th,tr,tr,td{
             border: 2px solid black;
             border-collapse: collapse;
         }
+
+            
+        
+        #qualify{
+            padding: 10px 10px;
+    
+        }
+        .degree{
+            padding: 5px 5px;
+            padding-left: 30px;
+        }
+        .address{
+            padding: 10px 10px;
+        }
+        .board{
+            padding: 10px 10px;
+        }
+        #board{
+            padding: 5px 5px;
+         }
+        .year{
+            padding: 10px 10px;
+        }
+        .percent{
+            padding: 10px 10px;
+        }
+        table,h3{
+            margin-left: 80px;
+        }
+
+
       </style>
     
 
     <body>
-        <h3> My Education Details</h3>
-        <table>
-            <thead>
-                <th> Qualification</th>
+        <h3  > My Education Details</h3>
+        <table class="table">
+            <thead class="table">
+                <th id="qualify"> Qualification</th>
                 <th> School/College</th>
-                <th> Board/University</th>
-                <th> Year</th>
-                <th> Percentage </th>
+                <th id="board"> Board/University</th>
+                <th class="year"> Year</th>
+                <th class="percent"> Percentage </th>
 
             </thead>
-            <tbody>
+            <tbody >
                 <tr>
-                    <td> BE</td>
-                    <td>CSMIT, Shendug,Panvel</td>
-                    <td> Mumbai</td>
-                    <td> 2019</td>
-                    <td> 61.27%</td>
+                    <td class="degree"> BE</td>
+                    <td class="address">CSMIT, Shendug,Panvel</td>
+                    <td class="board"> Mumbai</td>
+                    <td class="year"> 2019</td>
+                    <td class="percent"> 61.27%</td>
                 </tr>
                 <tr>
-                    <td> Diploma</td>
-                    <td> VJTI,Matunga,Pune</td>
-                    <td> Autonimous</td>
-                    <td> 2016</td>
-                    <td>72.29%</td>
+                    <td class="degree"> Diploma</td>
+                    <td class="address"> VJTI,Matunga,Pune</td>
+                    <td class="board"> Autonimous</td>
+                    <td class="year"> 2016</td>
+                    <td class="percent">72.29%</td>
                 </tr>
                 <tr>
-                    <td> SSC</td>
-                    <td> DVS High school,Kopa Khairne, NaviMumbai,mumbai</td>
-                    <td> State Board</td>
-                    <td> 2013</td>
-                    <td>90.76%</td>
+                    <td class="degree"> SSC</td>
+                    <td class="address"> DVS High school,Kopa Khairne, NaviMumbai,mumbai</td>
+                    <td class="board"> State Board</td>
+                    <td class="year"> 2013</td>
+                    <td class="percent">90.76%</td>
                 </tr>
             </tbody>
         </table>
